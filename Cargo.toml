@@ -1,0 +1,17 @@
+[package]
+name = "manners"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.78.0"
+authors = ["Philip Tofte Nielsen"]
+license = "GPLv3"
+readme = "README.md"
+repository = "https://github.com/philipwastakenwastaken/manners"
+keywords = ["chess", "ai", "chess engine", "alpha-beta search", "nnue"]
+description = "UCI chess engine using Rust"
+
+[dependencies]
+proc-bitfield = "0.3.1"
+num = "0.4"
+num-derive = "0.4"
+num-traits = "0.2"
